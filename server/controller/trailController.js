@@ -9,7 +9,7 @@ trailController.getTrails = async (req, res) => {
     return res.status(200).json(trails);
   } catch (err) {
     console.error(err);
-     return res.status(500).json({
+    return res.status(500).json({
       log: `trailController.getTrails: ERROR: Failed to retrieve trails from db ${err}`,
       message: { error: 'Error occurred in trailController.getTrails. Check server logs for more details.'}
     });

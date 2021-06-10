@@ -28,7 +28,13 @@ module.exports = {
 
     inline: true,
 
-    headers: { 'Access-Control-Allow-Origin': '*' }
+    headers: { 'Access-Control-Allow-Origin': '*' },
+    proxy: {
+      '/api/**': {
+        target: 'http://localhost:5000/',
+        secure: false
+      }
+    }
   },
   plugins: [htmlPlugin],
   module: {
