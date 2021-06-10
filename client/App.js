@@ -5,6 +5,7 @@ import './App.css';
 // Screens
 import HomeScreen from './screens/HomeScreen';
 import TrailScreen from './screens/TrailScreen';
+import AddTrailScreen from './screens/AddTrailScreen';
 
 // Components
 import Navbar from './components/Navbar';
@@ -28,6 +29,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomeScreen} />
           <Route exact path="/trail/:id" component={TrailScreen} />
+          <Route exact path="/add-trail" component={AddTrailScreen} />
         </Switch>
       </main>
     </Router>

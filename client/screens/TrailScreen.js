@@ -5,14 +5,20 @@ import './TrailScreen.css';
 
 // Actions
 // import { getProductDetails } from '../redux/actions/productActions';
-import { getTrailDetails } from '../redux/actions/trailActions';
+import { getTrailDetails, deleteTrail } from '../redux/actions/trailActions';
 
 // { match, history }
 const TrailScreen = ({ match }) => {
+
   const dispatch = useDispatch();
 
+  // Pulling Trail Details from State once getTrailDetails action is dispatched by useEffect
   const trailDetails = useSelector(state => state.getTrailDetails);
-  const {loading, error, trail} = trailDetails;
+  const { loading, error, trail } = trailDetails;
+
+  // Pull Deleted trail from storage after deleteTrail action is dispatched
+  const deletedTrail = useSelector(state => state.deleteTrail);
+  const { loading: deleteLoading, error: deleteError, trail: deleteTrailResult } = deletedTrail;
 
   useEffect(() => {
     if(trail && match.params.id !== trail._id) {
@@ -20,9 +26,10 @@ const TrailScreen = ({ match }) => {
     }
   }, [dispatch, trail, match]);
 
-  // <div className="productscreen">
-  //   {loading ? <h2>Loading...</h2> : error ? <h2>{error}</h2> : (
-  //     <>
+  const deleteHandler = (trail) => {
+    dispatch(deleteTrail(trail._id));
+  };
+
   return (
     <div className="trail-screen">
       {loading ? <h2>Loading...</h2> : error ? <h2>{error}</h2> : ( 
@@ -64,14 +71,15 @@ const TrailScreen = ({ match }) => {
             Update Trail
             <i className="fas fa-pen"></i>
           </button> */}
-              <Link to={'/'} className="trail-back-btn">
+              <Link to="/" className="trail-back-btn">
                 <i className="fas fa-chevron-left"></i>
                 Return Home
               </Link>
-              <button className="trail-delete-btn">
+
+              <Link to="/" className="trail-delete-btn" onClick={() => {deleteHandler(trail);}}>
                 Delete Trail
                 <i className="fas fa-trash"></i>
-              </button>
+              </Link>
             </div>
           </div>
         </>

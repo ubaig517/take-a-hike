@@ -45,7 +45,6 @@ export const getTrailDetails = (id) => {
       dispatch({ type: GET_TRAIL_DETAILS_REQUEST });
 
       const { data } = await axios.get(`/api/trails/${id}`);
-
       dispatch({
         type: GET_TRAIL_DETAILS_SUCCESS,
         payload: data

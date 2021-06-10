@@ -19,7 +19,7 @@ const Trail = ({ imageUrl, difficulty, trailType, length, trailName, parkName, l
         </div>
         <div className="trail-card__info">
           <p className="info__description">{excerpt.substring(0, 100)}...</p>
-          <Link to={`/trail/${trailId}`} className="trail-info__button">View</Link>
+          <Link to={`/trail/${trailId}`} className="trail-info__button">View <i className="fas fa-chevron-right"></i></Link>
         </div>
       </div>
     </div>

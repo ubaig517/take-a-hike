@@ -22,7 +22,7 @@ function HomeScreen() {
   return (
     <div className="homescreen">
       <h2 className="homescreen__title">Featured Trails</h2>
-      <div className="homescreen__products">
+      <div className="homescreen__trails">
         {loading ? <h2>Loading...</h2> : error ? <h2>{error}</h2> : trails.map(trail => 
           <Trail key={trail._id} 
             imageUrl={trail.imageUrl}

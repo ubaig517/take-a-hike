@@ -65,7 +65,7 @@ export const getTrailDetailsReducer = (state = { trail: {} }, action) => {
   }
 };
 
-export const createTrailReducer = (state = { trail: {} }, action) => {
+export const addTrailReducer = (state = { trail: {} }, action) => {
   switch(action.type) {
   case TRAIL_CREATE_REQUEST:
     return {

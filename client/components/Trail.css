@@ -27,7 +27,7 @@
   flex: 1;
   text-align: center;
   padding: 8px 0;
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 500;
   text-transform: capitalize;
   background: #f24b44;
@@ -78,9 +78,11 @@
   text-decoration: none;
   display: inline-block;
   margin-top: 15px;
-  padding: 8px 25px;
+  padding: 8px 30px;
   background: transparent;
+  font-size: .9rem;
   color: #f24b44;
+  font-weight: 500;
   border: 1px solid #f24b44;
   border-radius: 8px;
 }

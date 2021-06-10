@@ -1,0 +1,75 @@
+.addTrail__screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+}
+
+.addScreen__title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #171717;
+  margin-bottom: 1.5rem;
+}
+
+.addScreen__form {
+  width: 55%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.addTrail__two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.addTrail__three-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: rgba(242, 75, 68);
+  box-shadow: 0px 0px 8px 1px rgba(242, 75, 68, 0.3);
+}
+
+.add-trail-btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: rgba(242, 75, 68);
+  color: #fff;
+  transition: all 300ms ease-out;
+  border: none;
+  box-shadow: 0px 3px 9px -1px rgb(0, 0, 0, 0.4);
+}
+
+.add-trail-btn:hover {
+  color: #fff;
+  background-color: #171717;
+
+}
+
+
+@media (max-width: 1232px) {
+  .addScreen__form {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
+  .addScreen__form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 630px) {
+  .addScreen__form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

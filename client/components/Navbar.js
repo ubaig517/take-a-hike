@@ -17,7 +17,7 @@ const Navbar = ({ click }) => {
           </Link>
         </li>
         <li>
-          <Link to="/admin" className="admin__link">Add Trail</Link>
+          <Link to="/add-trail" className="admin__link">Add Trail</Link>
         </li>
       </ul>
 

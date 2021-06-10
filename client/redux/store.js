@@ -8,7 +8,7 @@ const middleware = [ thunk ];
 import {
   getTrailsReducer,
   getTrailDetailsReducer,
-  createTrailReducer,
+  addTrailReducer,
   deleteTrailReducer
 } from './reducers/trailReducers';
 
@@ -20,8 +20,8 @@ import {
 const reducer = combineReducers({
   getTrails: getTrailsReducer,
   getTrailDetails: getTrailDetailsReducer,
-  createTrailReducer: createTrailReducer,
-  deleteTrailReducer: deleteTrailReducer
+  addTrail: addTrailReducer,
+  deleteTrail: deleteTrailReducer
 });
 
 
