@@ -1,0 +1,53 @@
+.jumbotron {
+  height: 50vh;
+  width: 100%;
+  background-color: #333333;
+  background: url('https://images.pexels.com/photos/459095/pexels-photo-459095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: bottom center;
+  z-index: 0;
+}
+
+main {
+  height: 100vh;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.35);
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.overlay > h1 {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: 400;
+  z-index: 1;
+}
+
+@media (max-width: 960px) {
+  .jumbotron,
+  .overlay {
+    height: 60vh;
+  }
+
+  .overlay > h1 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 500px) {
+  .jumbotron,
+  .overlay {
+    height: 50vh;
+  }
+
+  .overlay > h1 {
+    font-size: 2.4rem; 
+  }
+}

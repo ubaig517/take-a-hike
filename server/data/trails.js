@@ -1,0 +1,95 @@
+const trails = [
+  {
+    trailName: 'Cascade Mountain and Porter Mountain via Cascade Mountain Trail',
+    imageUrl: 'https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    location: 'Keene, NY',
+    parkName: 'High Peaks Wilderness',
+    excerpt: 'Cascade Mountain and Porter Mountain via Cascade Mountain Trail is a 5.6 mile heavily trafficked out and back trail located near Keene, New York that features a river and is rated as difficult. The trail offers a number of activity options and is best used from May until October. Dogs are also able to use this trail but must be kept on leash.',
+    difficulty: 'hard',
+    length: 5.6,
+    elevationGain: '2,286',
+    trailType: 'Out & Back',
+    rating: 4.5,
+    description: "Located south of Lake Placid, this fantastic hike leads to two of the famous 46 Adirondack High Peaks, Cascade and Porter Mountains. The trailhead is located just west of Cascade Lakes off Route 73, which is often thought of as one of the most scenic roads in the country.\n\nYou’ll set out from the parking lot along the Cascade Mountain Trail, which begins with a set of stairs entering the woods. You’ll cross a small creek and begin ascending more quickly. After a little over 2 miles, you reach the trail junction for the summit of Cascade and Porter. Cascade Peak is more exposed than the summit of Porter, and does involve some minor rock scrambling to reach the top. There is also a restroom located near the top.\n\nBoth summits have great views, but Cascade is known for its incredible 360-degree views of the High Peaks Region and Adirondack Mountains. Trails in the area can become very muddy and slippery during the rainy season so take caution when scrambling over rocky sections of trail. This route is also a popular winter excursion, just keep an eye on the weather as conditions get very windy as you climb higher into the Adirondacks.\n\nBecause this is considered one of the easier 46ers to summit and its close proximity to Lake Placid, this is one of the most popular day hikes in the Adirondacks. It is highly recommended to arrive early to ensure a parking spot."
+  },
+  {
+    trailName: 'Bear Mountain Loop Trail',
+    imageUrl: 'https://images.pexels.com/photos/615348/forest-fog-sunny-nature-615348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    location: 'Bear Mountain, NY',
+    parkName: 'Bear Mountain State Park',
+    excerpt: 'Bear Mountain Loop Trail is a 3.8 mile heavily trafficked loop trail located near Bear Mountain, New York that features a lake and is rated as moderate. The trail is primarily used for hiking and running and is best used from April until November. Dogs are also able to use this trail but must be kept on leash.',
+    difficulty: 'moderate',
+    length: 3.8,
+    elevationGain: '1,154',
+    trailType: 'Loop',
+    rating: 4.5,
+    description: "Although relatively short, this great hike features some scrambling up rock slabs as the trail climbs to the Perkins Memorial Tower. Located near Hessian Lake in the Hudson Valley, this loop trail is a great option for a day trip from New York City. Be sure to arrive early as Bear Mountain State Park is a popular destination for hikers and runners on weekends.\n\nStarting at the parking lot near the Bear Mountain Inn, you’ll walk alongside Hessian Lake for a short distance before reaching the Major Welch Trail. This is where you’ll begin climbing as views of the Hudson River and Bear Mountain Bridge come into sight. Sections of this loop include hiking over flat rock faces. You’ll cross Perkins Memorial Drive, at which point you’ll be about a half mile from the tower and paved paths at the top.\n\nDescend along the Appalachian Trail and return to the parking lot. Be sure to stop at the overlook on the way down for a final view of the Hudson River!"
+  },
+  {
+    trailName: 'Gertrude\'s Nose Trail',
+    imageUrl: 'https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    location: 'High Falls, NY',
+    parkName: 'Minnewaska State Park Preserve',
+    excerpt: 'Gertrude\'s Nose Trail is a 6.9 mile heavily trafficked loop trail located near High Falls, New York that features a lake and is rated as moderate. The trail is primarily used for hiking and is best used from April until October. Dogs are also able to use this trail but must be kept on leash.',
+    difficulty: 'moderate',
+    length: 6.9,
+    elevationGain: '1,135',
+    trailType: 'Loop',
+    rating: 5,
+    description: "Gertrude’s Nose Trail travels through dense wooded areas to beautiful views while trekking along various cliff edges and rock formations, starting from Millbrook Mountain all the way to Patterson\'s Pellet with the main highlight being Gertrude\'s Nose.\n\nIt is recommended that visitors get there earlier as this is a very popular trail. Make sure to bring lots of water and get ready for some rock scrambling! This route has the potential to get wet and muddy, with lots of little creek crossings so wear appropriate footwear. \n\nDogs are allowed however dogs are not recommended for this trail due to its rocky paths and scrambles."
+  },
+  {
+    trailName: 'Breakneck Ridge, Breakneck Bypass, Wilkinson Trail Loop',
+    imageUrl: 'https://images.pexels.com/photos/1047966/pexels-photo-1047966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    location: 'Cornwall-on-Hudson, NY',
+    parkName: 'Hudson Highlands State Park Preserve',
+    excerpt: 'Breakneck Ridge, Breakneck Bypass, Wilkinson Trail Loop is a 3.2 mile heavily trafficked loop trail located near Cornwall-on-Hudson, New York that features a waterfall and is rated as difficult. The trail is primarily used for hiking, rock climbing, and nature trips and is best used from April until November. Dogs are also able to use this trail but must be kept on leash.',
+    difficulty: 'hard',
+    length: 3.2,
+    elevationGain: '1,250',
+    trailType: 'Loop',
+    rating: 5,
+    description: "This route is called the \"Breakneck Loop\" in the park signage. It's a popular destination for hikers looking to escape NYC, this short and difficult loop trail heads up Breakneck Ridge and winds down Wilkinson Memorial Trail, passing Sugarloaf Mountain on the descent. The trail includes some steep climbs and rock scrambles over ledges.\n\nUsers have recommended to follow the counterclockwise direction, starting at the southern Breakneck trailhead at the overpass/bridge. Because descending the Breakneck trail can be challenging as it is so steep. \n\nThere are fantastic views the whole way up! Please note that if you type \"Breakneck Ridge\" into Google Maps, it will automatically direct you to the backside of the ridge. The trail system cannot be reached this way. Make sure that you are directing yourself to the address on Route 9D in Beacon.\n\nThis trail is not recommended for pets, due to its difficulty and scramble sections."
+  },
+  {
+    trailName: 'Overlook Mountain Trail',
+    imageUrl: 'https://images.pexels.com/photos/615348/forest-fog-sunny-nature-615348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    location: 'Woodstock, NY',
+    parkName: 'Overlook Mountain Wild Forest',
+    excerpt: 'Overlook Mountain Trail is a 4.6 mile heavily trafficked out and back trail located near Woodstock, New York that features beautiful wild flowers and is rated as moderate. The trail is primarily used for hiking and is best used from April until November. Dogs are also able to use this trail but must be kept on leash.',
+    difficulty: 'moderate',
+    length: 4.6,
+    elevationGain: '1,397',
+    trailType: 'Out & Back',
+    rating: 4.5,
+    description: "Overlook Mountain is a trail mostly along an old gravel road. It is a steady incline to the summit with views worth the trek. There are old hotel ruins, a fire tower, a plane crash (if you know where to look), and extraordinary views. \n\nThe Overlook Mountain House ruins are the most popular reason why many hikers come to explore.  The mountain fire tower hosts nice views of the Catskills and even the Hudson Valley. \n\nThe path is wide and clear- easy to stay distanced from others. There are no switchbacks or other forest trails. It is not the most technical trail in the area, needless to say.\n\nBring some lunch up at the top because there are a few picnic tables where you can eat. You can go up the stairs in the tower, but it may be locked depending on the day. Users report getting to the parking lot early for a spot."
+  },
+  {
+    trailName: 'Bear Mountain Major Welch',
+    imageUrl: 'https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    location: 'Bear Mountain, NY',
+    parkName: 'Bear Mountain State Park',
+    excerpt: 'Bear Mountain Major Welch  is a 4.1 mile moderately trafficked out and back trail located near Bear Mountain, New York that features a lake and is rated as difficult. The trail is primarily used for hiking and nature trips and is accessible year-round. Dogs are also able to use this trail.',
+    difficulty: 'hard',
+    length: 4.1,
+    elevationGain: '1,177',
+    trailType: 'Out & Back',
+    rating: 4.5,
+    description: "This is a direct, rugged, alternate route up Bear Mountain which is the north side of the extended loop trail.  It is an in-out challenging scramble.  Crampons are essential after snowfall.  Fantastic views of the Hudson River Valley, with the great enclosed Perkins lookout tower on top.  Trailhead on west side of Hessian Lake, parking at mountain lodges lot."
+  },
+  {
+    trailName: 'Indian, Finger Lakes, and Gorge Trail Loop',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Watkins_Glen_State_Park_pano_6.jpg',
+    location: 'Watkins Glen, NY',
+    parkName: 'Watkins Glen State Park',
+    excerpt: 'Indian, Finger Lakes, and Gorge Trail Loop is a 2.6 mile heavily trafficked loop trail located near Watkins Glen, New York that features a waterfall and is rated as moderate. The trail is primarily used for hiking and is best used from May until October.',
+    difficulty: 'moderate',
+    length: 2.6,
+    elevationGain: '682',
+    trailType: 'Loop',
+    rating: 4.5,
+    description: "Upstate New York’s Watkins Glen State Park is one of the most popular parks in the Finger Lakes region. Within just two miles, the glen's stream features 19 waterfalls along its course which are viewable from the glen’s stone steps and dirt paths. This loop which includes the Indian Trail and Gorge Trail meanders past Glen Creek and through Cavern Cascade.\n\nThe parking lot is accessible directly across from the park entrance on South Franklin Street. Campers and day-visitors can swim in the Olympic-sized swimming pool, go on guided hikes through the gorge, stay overnight in tent and trailer campsites, have lunch in the picnic facilities or fish in nearby Seneca Lake or Catherine Creek. Watkins Glen is located in Schuyler County and offers abundant natural beauty for summer adventures and relaxation.\n\nThis is a special place and the trail receives a lot of traffic. Please make sure to pack in all trash and belongings and leave the trail cleaner than you found it."
+  },
+];
+
+module.exports = trails;
