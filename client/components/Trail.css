@@ -131,7 +131,7 @@
 
 .trail-card__meta {
   display: flex;
-  padding: 10px;
+  padding: 15px;
 }
 
 .meta-item {
@@ -141,7 +141,7 @@
   font-weight: 500;
   background: #f24b44;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
@@ -154,16 +154,102 @@
 }
 
 .trail-card__content {
-  padding: 0 10px 10px 10px;
+  padding: 0 15px 20px 15px;
 }
 
 .trail-card__header {
-  margin-bottom: 10px;
+  margin: 0;
 }
 
 .card__title {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.card__subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #999;
+}
+
+.trail-card__info {
+  margin-top: 15px;
+}
+
+.info__description {
   color: #171717;
-  font-size: 1.2rem;
-  font-weight: 600;
+}
+
+.trail-info__button {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 25px;
+  background: transparent;
+  color: #f24b44;
+  border: 1px solid #f24b44;
+  border-radius: 8px;
+}
+
+.trail-info__button:hover {
+  transition: all 200ms ease-in-out;
+  background: #f24b44;
+  color: #fff;
+}
+
+@media (max-width: 1090px) {
+  .trail-card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .trail-card {
+    width: 330px;
+  }
+}
+
+@media (max-width: 1028px) {
+  .trail-card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 950px) {
+  .trail-card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 840px) {
+  .trail-card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 730px) {
+  .trail-card {
+    width: 290px;
+  }
+}
+
+@media (max-width: 630px) {
+  .trail-card {
+    width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .trail-card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .trail-card {
+    width: 300px;
+  }
 }
 
