@@ -23,13 +23,13 @@ const Trail = () => {
       </div>
       <div className="trail-card__content">
         <div className="trail-card__header">
-          <Link to='/product/123' className="card__title">Cascade Mountain and Porter Mountain Loop...</Link>
+          <Link to='/trail/123' className="card__title">Cascade Mountain and Porter Mountain Loop...</Link>
           <p className="card__subtitle">High Peaks Wilderness</p>
           <p className="card__subtitle">Keen, NY</p>
         </div>
         <div className="trail-card__info">
           <p className="info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, doloremque!</p>
-          <Link to='/product/123' className="trail-info__button">View</Link>
+          <Link to='/trail/123' className="trail-info__button">View</Link>
         </div>
       </div>
     </div>

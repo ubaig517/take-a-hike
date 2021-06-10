@@ -1,10 +1,10 @@
 .jumbotron {
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   background-color: #333333;
   background: url('https://images.pexels.com/photos/459095/pexels-photo-459095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-size: cover;
   background-position: bottom center;
+  background-size: cover;
   z-index: 0;
 }
 
@@ -14,7 +14,7 @@ main {
 
 .overlay {
   background: rgba(0,0,0,0.35);
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   justify-content: center;

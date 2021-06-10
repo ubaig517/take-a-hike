@@ -3,13 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 25px;
 }
 
 .homescreen__title {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: 500;
   color: #171717;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .homescreen__products {
