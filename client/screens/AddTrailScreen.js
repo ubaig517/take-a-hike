@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './AddTrailScreen.css';
+const form = document.querySelector('#addTrail-form');
 
 // Actions
 import { addTrail as createTrail } from '../redux/actions/trailActions';
@@ -44,6 +45,8 @@ const AddTrailScreen = () => {
       rating: parseFloat(rating),
       description: description
     }));
+
+    window.location.reload();
   };
 
 
@@ -138,7 +141,7 @@ const AddTrailScreen = () => {
           </div>
 
           <div className="control">
-            <button className="add-trail-btn button is-fullwidth" onClick={submitHandler}>Submit</button>
+            <button to='/' className="add-trail-btn button is-fullwidth" onClick={submitHandler}>Submit</button>
           </div>
         </form>
       </div>

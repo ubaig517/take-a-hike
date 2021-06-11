@@ -11,11 +11,11 @@ const Navbar = ({ click }) => {
       </Link>
 
       <ul className="navbar__links">
-        <li>
+        {/* <li>
           <Link to="/" className="home__link">
             Home
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/add-trail" className="admin__link">Add Trail</Link>
         </li>
