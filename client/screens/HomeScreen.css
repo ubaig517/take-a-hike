@@ -16,7 +16,7 @@
 .homescreen__trails {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.1rem;
+  gap: 1.2rem;
 }
 
 @media (max-width: 1232px) {

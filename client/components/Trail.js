@@ -8,7 +8,7 @@ const Trail = ({ imageUrl, difficulty, trailType, length, trailName, parkName, l
       <img className="trail-card__image" src={imageUrl} alt={parkName} />
       <div className="trail-card__meta">
         <p className="meta-item">{difficulty}</p>
-        <p className="meta-item">{trailType}</p>
+        <p className="meta-item">{trailType.toLowerCase() === 'loop' ? <i className="fas fa-sync-alt"></i> : <i className="fas fa-route"></i> }</p>
         <p className="meta-item"><span>{length}</span>mi.</p>
       </div>
       <div className="trail-card__content">

@@ -54,8 +54,9 @@
 }
 
 .trail-meta {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
 
 .meta__left > ul > li,

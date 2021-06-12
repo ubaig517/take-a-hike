@@ -1,5 +1,5 @@
 .jumbotron {
-  height: 50vh;
+  height: 55vh;
   width: 100%;
   background-color: #333333;
   background: url('https://images.pexels.com/photos/459095/pexels-photo-459095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -11,7 +11,7 @@
 
 .overlay {
   background: rgba(0,0,0,0.25);
-  height: 50vh;
+  height: 55vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -20,6 +20,7 @@
 }
 
 .overlay > h1 {
+  margin-top: 10px;
   color: #fff;
   font-size: 4.5rem;
   font-weight: 400;

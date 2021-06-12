@@ -59,14 +59,14 @@ const AddTrailScreen = () => {
             <div className="field">
               <label className="label">Trail Name</label>
               <div className="control">
-                <input name="trailName" className="input" value={trailName} type="text" placeholder="Major Welch Trail" onChange={(e) => setTrailName(e.target.value)} required/>
+                <input name="trailName" className="input is-normal" value={trailName} type="text" placeholder="Major Welch Trail" onChange={(e) => setTrailName(e.target.value)} required/>
               </div>
             </div>
 
             <div className="field">
               <label className="label">Park Name</label>
               <div className="control">
-                <input name="parkName" value={parkName} className="input" type="text" placeholder="Bear Mountain State Park" onChange={(e) => setParknName(e.target.value)} required/>
+                <input name="parkName" value={parkName} className="input is-normal" type="text" placeholder="Bear Mountain State Park" onChange={(e) => setParknName(e.target.value)} required/>
               </div>
             </div>
           </div>
@@ -75,14 +75,14 @@ const AddTrailScreen = () => {
             <div className="field">
               <label className="label">Location</label>
               <div className="control">
-                <input name="location" value={location} className="input" type="text" placeholder="Bear Mountain, NY" onChange={(e) => setLocation(e.target.value)} required/>
+                <input name="location" value={location} className="input is-normal" type="text" placeholder="Bear Mountain, NY" onChange={(e) => setLocation(e.target.value)} required/>
               </div>
             </div>
 
             <div className="field">
               <label className="label">Image URL</label>
               <div className="control">
-                <input name="imageUrl" value={imageUrl} className="input" type="text" placeholder="https://imageurl.com" onChange={(e) => setImageUrl(e.target.value)} required/>
+                <input name="imageUrl" value={imageUrl} className="input is-normal" type="text" placeholder="https://imageurl.com" onChange={(e) => setImageUrl(e.target.value)} required/>
               </div>
             </div>
           </div>
@@ -98,21 +98,21 @@ const AddTrailScreen = () => {
             <div className="field">
               <label className="label">Difficulty</label>
               <div className="control">
-                <input name="difficulty" value={difficulty} className="input" type="text" placeholder="Hard" onChange={(e) => setDifficulty(e.target.value)} required/>
+                <input name="difficulty" value={difficulty} className="input is-normal" type="text" placeholder="Hard" onChange={(e) => setDifficulty(e.target.value)} required/>
               </div>
             </div>
 
             <div className="field">
               <label className="label">Length</label>
               <div className="control">
-                <input name="length" value={length} className="input" type="number" placeholder="3.5" onChange={(e) => setLength(e.target.value)} required/>
+                <input name="length" value={length} className="input is-normal" type="number" placeholder="3.5" onChange={(e) => setLength(e.target.value)} required/>
               </div>
             </div>
 
             <div className="field">
               <label className="label">Rating</label>
               <div className="control">
-                <input name="rating" value={rating} className="input" type="number" min="0" max="5" placeholder="4.7" onChange={(e) => setRating(e.target.value)} required/>
+                <input name="rating" value={rating} className="input is-normal" type="number" min="0" max="5" placeholder="4.7" onChange={(e) => setRating(e.target.value)} required/>
               </div>
             </div>
           </div>
@@ -121,14 +121,14 @@ const AddTrailScreen = () => {
             <div className="field">
               <label className="label">Elevation Gain</label>
               <div className="control">
-                <input name="elevationGain" value={elevationGain} className="input" type="text" placeholder="2,000" onChange={(e) => setElevationGain(e.target.value)} required/>
+                <input name="elevationGain" value={elevationGain} className="input is-normal" type="text" placeholder="2,000" onChange={(e) => setElevationGain(e.target.value)} required/>
               </div>
             </div>
 
             <div className="field">
               <label className="label">Trail Type</label>
               <div className="control">
-                <input name="trailType" value={trailType} className="input" type="text" placeholder="Loop" onChange={(e) => setTrailType(e.target.value)} required/>
+                <input name="trailType" value={trailType} className="input is-normal" type="text" placeholder="Loop" onChange={(e) => setTrailType(e.target.value)} required/>
               </div>
             </div>
           </div>
